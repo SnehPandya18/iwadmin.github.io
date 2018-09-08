@@ -1,0 +1,87 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* All our style overrides go here. */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #104451;
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffff;
+    background: none;
+    color: #4C7F8D;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+a {
+    color: #104451;
+    text-shadow: none;
+}
+
+header h1 {
+    color: #ff5933;
+}
+
+header {
+    .subtitle {
+        font-size: 14px;
+        color: #666;
+        padding-top: 7px;
+        display: inline;
+    }
+
+    #logo {
+        width: 75px;
+        float: right;
+        margin-top: -23px;
+    }
+}
+
+ul li {
+    list-style-image: none;
+}
+
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 30px 0;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
+a.raw {
+    text-decoration: none;
+}
+
+a.header-link {
+    text-decoration: none;
+    color: #ff5933;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px dashed #59c5cd;
+  color: #59c5cd;
+}
+
+hr.post-footer {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
